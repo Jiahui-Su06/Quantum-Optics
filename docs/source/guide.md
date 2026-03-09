@@ -6,7 +6,7 @@ GDSFactory 环境配置的最大难点在于 KLayout 相关插件的安装，原
 
 如果已经安装过 KLayout 软件，可以直接进行步骤二。
 
-访问KLayout官网，访问网址为：https://www.klayout.de/build.html
+访问 KLayout 官网，访问网址为：[KLayout 官网安装包下载网址](https://www.klayout.de/build.html)
 
 选择合适的安装包并下载，如下图 1 所示。
 
@@ -28,9 +28,9 @@ GDSFactory 环境配置的最大难点在于 KLayout 相关插件的安装，原
 
 手动下载 KLayout 所需要的插件包，下载链接如下：
 
-- metainfo-ports：https://github.com/gdsfactory/metainfo-ports/archive/refs/heads/main.zip
-- klive：https://github.com/gdsfactory/metainfo-ports/archive/refs/heads/main.zip
-- gdsfactory：https://github.com/gdsfactory/gdsfactory/archive/refs/heads/main.zip
+- metainfo-ports：[metainfo-ports-main](https://github.com/gdsfactory/metainfo-ports/archive/refs/heads/main.zip)
+- klive：[klive-main](https://github.com/gdsfactory/klive/archive/refs/heads/main.zip)
+- gdsfactory：[gdsfactory-main](https://github.com/gdsfactory/gdsfactory/archive/refs/heads/main.zip)
 
 ### 2. 创建 KLayout\salt 文件夹
 
