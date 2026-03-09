@@ -16,4 +16,4 @@
 ## 在线文档
 
 访问项目文档：  
-[Quantum Optics](https://https://quantum-optics.readthedocs.io/)
+[Quantum Optics](https://quantum-optics.readthedocs.io/zh-cn/latest/)
