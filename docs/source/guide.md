@@ -10,7 +10,13 @@ GDSFactory 环境配置的最大难点在于 KLayout 相关插件的安装，原
 
 选择合适的安装包并下载，如下图 1 所示。
 
-![图1 KLayout安装包下载界面](_static/img/GDS_No1.png)
+```{figure} _static/img/GDS_No1.png
+:width: 100%
+:align: center
+:alt: 图 1 KLayout安装包下载界面
+
+图 1 KLayout安装包下载界面
+```
 
 由于 KLayout 为国外软件，所以安装包下载过程可能非常缓慢，需要科学上网才能提高下载速度。这里直接给出 KLayout 的 Windows 64 位安装包，网盘链接为: https://pan.baidu.com/s/1yKoCYbP3UZ3t-hKLFG3nDw?pwd=KLay
 
