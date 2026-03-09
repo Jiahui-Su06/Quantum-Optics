@@ -18,7 +18,7 @@ GDSFactory 环境配置的最大难点在于 KLayout 相关插件的安装，原
 图 1 KLayout安装包下载界面
 ```
 
-由于 KLayout 为国外软件，所以安装包下载过程可能非常缓慢，需要科学上网才能提高下载速度。这里直接给出 KLayout 的 Windows 64 位安装包，网盘链接为: https://pan.baidu.com/s/1yKoCYbP3UZ3t-hKLFG3nDw?pwd=KLay
+由于 KLayout 为国外软件，所以安装包下载过程可能非常缓慢，需要科学上网才能提高下载速度。这里直接给出 KLayout 的 Windows 64 位安装包，网盘链接为：[KLayout软件安装包网盘链接](https://pan.baidu.com/s/1yKoCYbP3UZ3t-hKLFG3nDw?pwd=KLay)
 
 安装包下载完成后，按照正常软件安装的流程完成 KLayout 的安装即可。
 
@@ -40,13 +40,25 @@ KLayout 的 salt 文件夹用于管理软件插件包，如果之前没有安装
 C:\Users\**username**\KLayout\salt
 ```
 
-![图2 手动创建salt文件夹后的文件目录](_static/img/GDS_No2.png)
+```{figure} _static/img/GDS_No2.png
+:width: 100%
+:align: center
+:alt: 图 2 手动创建salt文件夹后的文件目录
+
+图 2 手动创建salt文件夹后的文件目录
+```
 
 ### 3. 为 salt 文件夹添加插件包
 
 将前面下载的插件压缩包逐一解压，如图 3 所示。
 
-![图3 解压后的插件包](_static/img/GDS_No3.png)
+```{figure} _static/img/GDS_No3.png
+:width: 100%
+:align: center
+:alt: 图 3 解压后的插件包
+
+图 3 解压后的插件包
+```
 
 修改解压后的插件包名称：
 
@@ -56,7 +68,13 @@ C:\Users\**username**\KLayout\salt
 
 将更名后的插件包复制到前面创建的 salt 文件夹中，如图 4 所示。
 
-![图4 完成配置的salt文件夹](_static/img/GDS_No4.png)
+```{figure} _static/img/GDS_No4.png
+:width: 100%
+:align: center
+:alt: 图 4 完成配置的salt文件夹
+
+图 4 完成配置的salt文件夹
+```
 
 配置完成后，最终的文件目录如下所示：
 
@@ -70,11 +88,23 @@ C:\Users\***\KLayout\salt\gdsfactory
 
 打开 KLayout (Editor) 软件，如图 5 所示。
 
-![图5 打开KLayout (Editor) 软件](_static/img/GDS_No5.png)
+```{figure} _static/img/GDS_No5.png
+:width: 100%
+:align: center
+:alt: 图 5 打开KLayout (Editor) 软件
+
+图 5 打开KLayout (Editor) 软件
+```
 
 如果安装成功，则 KLayout 软件的菜单栏里应该出现 gdsfactory 的选项，如图 6 所示。
 
-![图6 插件安装成功的KLayout软件菜单栏](_static/img/GDS_No6.png)
+```{figure} _static/img/GDS_No6.png
+:width: 100%
+:align: center
+:alt: 图 6 插件安装成功的KLayout软件菜单栏
+
+图 6 插件安装成功的KLayout软件菜单栏
+```
 
 至此，KLayout 软件已经完成配置，下面只需在 Python 环境中使用 gdsfactory 库进行版图绘制即可。
 
@@ -90,15 +120,33 @@ C:\Users\***\KLayout\salt\gdsfactory
 
 点击 PyCharm 软件右下角的“解释器设置”选项，如图 7 所示。
 
-![图7 解释器设置选项位置](_static/img/GDS_No7.png)
+```{figure} _static/img/GDS_No7.png
+:width: 100%
+:align: center
+:alt: 图 7 解释器设置选项位置
+
+图 7 解释器设置选项位置
+```
 
 点击安装“+”按钮。
 
-![图8 Python库安装](_static/img/GDS_No8.png)
+```{figure} _static/img/GDS_No8.png
+:width: 100%
+:align: center
+:alt: 图 8 Python库安装
+
+图 8 Python库安装
+```
 
 输入 gdsfactory，点击“安装软件包”按钮，并点击“关闭”按钮返回 PyCharm 主界面，可观察软件右下角进度条，等待至 gdsfactory 库安装完成。
 
-![图9 Python库安装](_static/img/GDS_No9.png)
+```{figure} _static/img/GDS_No9.png
+:width: 100%
+:align: center
+:alt: 图 9 Python库安装
+
+图 9 Python库安装
+```
 
 ### 3. 检验是否配置成功
 
@@ -116,7 +164,13 @@ c.show()
 
 如果 PyCharm 软件没有报错，KLayout 软件将出现下图 10 所示的版图，则说明环境配置成功。
 
-![图10 配置成功的KLayout版图绘制界面](_static/img/GDS_No10.png)
+```{figure} _static/img/GDS_No10.png
+:width: 100%
+:align: center
+:alt: 图 9 Python库安装
+
+图 10 配置成功的KLayout版图绘制界面
+```
 
 ## 注意事项
 
