@@ -15,5 +15,5 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   intro
    guide
+   quantum_optics_1
